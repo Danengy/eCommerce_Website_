@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+}
+
+.product {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+}
+
+.products img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+}
