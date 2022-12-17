@@ -4,124 +4,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>eCom_website</title>
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        #text1 {
+            background-image:url("./images/1200px-Google_Magnifying_Glass.svg.png");
+            background-position: right;
+            background-size: 20px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <nav>
+            <div class="heading">
+                <div class="nav-list">
 
-        <div class="header">
-            <div class="home">
-                <a href="home">HOME</a>
+                    <div class="home">
+                        <a href="">HOME</a>
+                    </div>
+
+                    <div class="about">
+                        <a href="">ABOUT</a>
+                    </div>
+
+                    <div class="products">
+                        <a href="">PRODUCTS</a>
+                    </div>
+
+                    <div class="contact">
+                        <a href="">CONTACT</a>
+                    </div>
+
+                </div>
+
+
+
+                <div class="cara-div">
+
+                    <div class="cara-words">
+                        <p>
+                            CARA
+                        </p>
+                    </div>
+
+                    <div class="pot-icon img">
+                        <img src="./images/icons8-pottery-96.png"/>
+                    </div>
+
+                    <div class="cara-words">
+                        <p>
+                            CARA
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="cart-div">
+                    <div class="cart-text">
+                        <input type="text" id="text1" placeholder="Search...">
+                        <a href="">CART(0)</a>
+                    </div>
+                </div>
+
+
             </div>
+            <hr color="black" width="95%" size="2.5" align="center"/>
 
-            <div class="about">
-                <a href="about">ABOUT</a>
-            </div>
-
-            <div class="products">
-                <a href="">PRODUCTS</a>
-            </div>
-
-            <div class="contact">
-                <a href="">CONTACT</a>
-            </div>
-
-            <div>
-                <p>
-                    CARA
-                </p>
-                <img src="./images/icons8-pottery-96.png"/>
-                <p>
-                    CARA
-                </p>
-            </div>
-
-            <div>
-                <input type="text">
-            </div>
-
-            <div class="cart">
-                <a href="">CART(0)</a>
-            </div>
-            <hr class ="hr2" color="black" width="100%" size="2.5"/>
-
-        </div>
-        
+        </nav>
     </header>
+    
     <main>
 
+
         <section class="top_picture">
-            <img src="./images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="pottery crafting">
-            <div>
-                CERAMICS
-                CRAFTED BY
+            <img src="./images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="pottery crafting" style="width:100%" >
+            <div class="top-text">
+                CERAMICS <br>
+                CRAFTED BY <br>
                 HAND...
             </div>
-            <div>
-                … FROM THE
+            <div class="bottom-text">
+                … FROM THE <br>
                 GROUND UP
             </div>
         </section>
 
-        <section class="sec1">
+
+        <section class="about">
             <h1>ABOUT US</h1>
-            <hr class ="hr1" color="black" width="100%" size="3.5" />
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
-                faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
-                ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
-                risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
-                amet commodo.
-            </p>
-            <img src="./images/Vase_Dame_2048x2048.jpg" alt="vase with yellow followers">
-            <p>
-                Nulla porttitor massa id neque aliquam
-                vestibulum morbi. Facilisi nullam vehicula
-                ipsum a arcu cursus vitae congue. Nam libero
-                justo laoreet sit amet cursus sit amet dictum.
-                Tristique magna sit amet purus gravida quis.
-                Velit euismod in pellentesque massa placerat.
-                In ante metus dictum at tempor commodo.
-                Libero nunc consequat interdum varius sit
-                amet mattis. Egestas sed sed risus pretium
-                quam vulputate dignissim. Diam phasellus
-                vestibulum lorem sed risus. Cursus sit amet
-                dictum sit amet justo donec enim.
-            </p>
-            <p>
-                Tincidunt praesent semper feugiat nibh sed.
-                Vulputate mi sit amet mauris commodo quis
-                imperdiet massa. Amet tellus cras adipiscing
-                enim eu turpis egestas pretium aenean.
-                Nullam ac tortor vitae purus
-            </p>
-            <img src="./images/Cylinder_unglazed3_2048x2048.jpg" alt="pot with wheat">
+            <hr color="black" width="55%" size="3.5" align="left"/>
+
+            <div class="about-div">
+                <div>
+                    <p class="p1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
+                        faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
+                        ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
+                        risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
+                        amet commodo.
+                    </p>
+                    <img src="./images/Vase_Dame_2048x2048.jpg" alt="vase with beads" class="vase-beads">
+                    <p class="p2">
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. Nam libero
+                        justo laoreet sit amet cursus sit amet dictum.
+                        Tristique magna sit amet purus gravida quis.
+                        Velit euismod in pellentesque massa placerat.
+                        In ante metus dictum at tempor commodo.
+                        Libero nunc consequat interdum varius sit
+                        amet mattis. Egestas sed sed risus pretium
+                        quam vulputate dignissim. Diam phasellus
+                        vestibulum lorem sed risus. Cursus sit amet
+                        dictum sit amet justo donec enim.
+                    </p>
+                    <p class="p3">
+                        Tincidunt praesent semper feugiat nibh sed.
+                        Vulputate mi sit amet mauris commodo quis
+                        imperdiet massa. Amet tellus cras adipiscing
+                        enim eu turpis egestas pretium aenean.
+                        Nullam ac tortor vitae purus
+                    </p>
+                </div>
+
+                 <div>
+                    <img src="./images/Cylinder_unglazed3_2048x2048.jpg" alt="pot with wheat" class="vase-wheat">
+                 </div>
+            </div>
 
         </section>
 
-        <section class="sec2">
+        <section class="product-section">
             <h2>OUR PRODUCTS</h2>
-            <hr class ="hr2" color="black" size="3.5" />
-            <div class="products">
+            <hr class ="hr2" color="black" size="3.5" width="55%"  align="left"/>
+            <div class="products-display">
+
+
                 <div class="product">
                     <img src="./images/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="mini tan claypots">
-                    
-                    
-                    <div>
-                        <div>
-                            <p>
-                                NATUREZA POTS
-                            </p>
-                        </div>
+                    <div class="cost-div">
 
                         <div>
-                            <p>
+                            <p class="pots-div-spacing">
+                                NATUREZA POTS
+                            </p>
+                        </div> 
+
+                        <div>
+                            <p class="cost">
                                 $59.00
                             </p>
                         </div>
                     </div>
-                    <hr class ="" color="black" size="3.5" />
+                    <hr class ="" color="black" size="3.5" width="75%" align="left"/>
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -129,11 +169,11 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <div>
+                    <div class="product-cart">
                         <div>
                             <a href="">LEARN MORE</a>
                         </div>
-                        <div>
+                        <div class="add-to-cart">
                             <button>ADD TO CART</button>
                         </div>
                     </div>
@@ -142,20 +182,20 @@
 
                 <div class="product">
                     <img src="./images/linh-le-a0rE64YJDA4-unsplash.jpg" alt="pedra vase">
-                    <div>
+                    <div class="cost-div">
                         <div>
-                            <p>
+                            <p class="pots-div-spacing">
                                 PEDRA VASE
                             </p>
                         </div>
 
                         <div>
-                            <p>
+                            <p class="cost">
                                 $31.00
                             </p>
                         </div>
                     </div>
-                    <hr class ="" color="black" width="100%" size="3.5" />
+                    <hr class ="" color="black" size="3.5" width="75%" align="left"/>
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -163,11 +203,11 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <div>
+                    <div class="product-cart">
                         <div>
                             <a href="">LEARN MORE</a>
                         </div>
-                        <div>
+                        <div class="add-to-cart">
                             <button>ADD TO CART</button>
                         </div>
                     </div>
@@ -176,20 +216,21 @@
 
                 <div class="product">
                     <img src="./images/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="mini white claypots">
-                    <div>
-                        <div>
-                            <p>
-                                VIAJA POTS
-                            </p>
-                        </div>
+                    <div class="cost-div">
 
                         <div>
-                            <p>
+                            <p class="pots-div-spacing">
+                                VIAJA POTS
+                            </p>
+                        </div> 
+
+                        <div>
+                            <p class="cost">
                                 $57.00
                             </p>
                         </div>
                     </div>
-                    <hr class ="" color="black" width="100%" size="3.5" />
+                    <hr class ="" color="black" size="3.5" width="75%" align="left"/>
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -197,33 +238,34 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <div>
+                    <div class="product-cart">
                         <div>
                             <a href="">LEARN MORE</a>
                         </div>
-                        <div>
+                        <div class="add-to-cart">
                             <button>ADD TO CART</button>
                         </div>
                     </div>
                 </div>
 
 
-                <div>
+                <div class="product">
                     <img src="./images/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="mini white clay plates">
-                    <div>
-                        <div>
-                            <p>
-                                SERVICO PLATES
-                            </p>
-                        </div>
+                    <div class="cost-div">
 
                         <div>
-                            <p>
+                            <p class="pots-div-spacing">
+                                SERVICO PLATES
+                            </p>
+                        </div> 
+
+                        <div>
+                            <p class="cost">
                                 $35.00
                             </p>
                         </div>
                     </div>
-                    <hr class ="" color="black" width="100%" size="3.5" />
+                    <hr class ="" color="black" size="3.5" width="75%" align="left"/>
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -231,11 +273,11 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <div>
+                    <div class="product-cart">
                         <div>
                             <a href="">LEARN MORE</a>
                         </div>
-                        <div>
+                        <div class="add-to-cart">
                             <button>ADD TO CART</button>
                         </div>
                     </div>
@@ -244,20 +286,21 @@
 
                 <div class="product">
                     <img src="./images/oriento-l0ah3UBLppo-unsplash.jpg" alt="mini blue vase">
-                    <div>
-                        <div>
-                            <p>
-                                CAMPEAO VASE
-                            </p>
-                        </div>
+                    <div class="cost-div">
 
                         <div>
-                            <p>
+                            <p class="pots-div-spacing">
+                                CAMPEAO VASE
+                            </p>
+                        </div> 
+
+                        <div>
+                            <p class="cost">
                                 $37.00
                             </p>
                         </div>
                     </div>
-                    <hr class ="" color="black" width="100%" size="3.5" />
+                    <hr class ="" color="black" size="3.5" width="75%" align="left"/>
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -265,11 +308,11 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <div>
+                    <div class="product-cart">
                         <div>
                             <a href="">LEARN MORE</a>
                         </div>
-                        <div>
+                        <div class="add-to-cart">
                             <button>ADD TO CART</button>
                         </div>
                     </div>
@@ -278,20 +321,21 @@
 
                 <div class="product">
                     <img src="./images/tom-crew-SITGdvztUdg-unsplash.jpg" alt="mini white clay bowls">
-                    <div>
-                        <div>
-                            <p>
-                                TROCA BOWLS
-                            </p>
-                        </div>
+                    <div class="cost-div">
 
                         <div>
-                            <p>
+                            <p class="pots-div-spacing">
+                                TROCA BOWLS
+                            </p>
+                        </div> 
+
+                        <div>
+                            <p class="cost">
                                 $25.00
                             </p>
                         </div>
                     </div>
-                    <hr class ="" color="black" width="100%" size="3.5" />
+                    <hr class ="" color="black" size="3.5" width="75%" align="left"/>
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -299,14 +343,15 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <div>
+                    <div class="product-cart">
                         <div>
                             <a href="">LEARN MORE</a>
                         </div>
-                        <div>
+                        <div class="add-to-cart">
                             <button>ADD TO CART</button>
                         </div>
                     </div>
+                </div>
                 </div>
 
             </div>
@@ -315,41 +360,59 @@
 
         <section class="contact">
             <h3>CONTACT US</h3>
-            <hr class ="hr2" color="black" width="100%" size="3.5" />
-            <div>
-                <div>
-                    <label for="">EMAIL</label>
+            <hr class ="hr2" color="black" size="3.5" width="55%" align="left"/>
+            <form>
+                <label >EMAIL</label> 
+                <br>
+                <input class="email-text-box" type="text" size="100%" >
+                <br>
+                <label >MESSAGE</label>
+                <br>
+                <input class="message-text-box" type="text" size="100%">
+                <div class="send-button-div">
+                    <button class="send-button">SEND</button>
                 </div>
-                <div>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">MESSAGE</label>
-                </div>
-                <div>
-                    <input type="text">
-                </div>
-                <div>
-                    <button>SEND</button>
-                </div>
-            </div>
+            </form>
+            
+
         </section>
 
 
         <section class="icon">
-            <div>
+            <div class="last-heading-div">
                 <div>
-                    <img src="./images/icons8-youtube-96.png" alt="youtube button">
-                    <img src="./images/icons8-facebook-96 (1).png" alt="facebook button">
+                    <a href="">
+                        <img src="./images/icons8-youtube-96.png" alt="youtube button">
+                        <img src="./images/icons8-facebook-96 (1).png" alt="facebook button">
+                    </a>
                 </div>
                 <div>
-                    <p>CARA</p>
-                    <img src="./images/icons8-pottery-96 (1).png" alt="white pottery sybmol">
-                    <p>CARA</p>
+                    <div class="cara-div2">
+
+                        <div class="cara-words2">
+                            <p>
+                                CARA
+                            </p>
+                        </div>
+    
+                        <div class="pot-icon-img2">
+                            <a href="">
+                            <img src="./images/icons8-pottery-96 (1).png"/>
+                            </a>
+                        </div>
+    
+                        <div class="cara-words2">
+                            <p>
+                                CARA
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <img src="./images/icons8-twitter-96.png" alt="">
-                    <img src="./images/icons8-instagram-96.png" alt="">
+                    <a href="">
+                        <img src="./images/icons8-twitter-96.png" alt="">
+                        <img src="./images/icons8-instagram-96.png" alt="">
+                    </a>
                 </div>
             </div>
         </section>
